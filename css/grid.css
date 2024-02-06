@@ -4,7 +4,7 @@ img, embed, object, video, picture {
   }
   
  
-  html {
+html {
     box-sizing: border-box;
   }
   
@@ -14,18 +14,18 @@ img, embed, object, video, picture {
   
 
   
-  body, p, h1, h2, h3, h4, h5 {
+body, p, h1, h2, h3, h4, h5 {
      margin: 0px;
      padding: 0px;
   }
   
 
   
-  .hidden {
+.hidden {
      display: none;
   }
   
-  .box {
+.box {
      background-color: rgb(100, 120, 255);
      color: rgb(27, 27, 27);
      border-radius: 5px;
@@ -36,25 +36,25 @@ img, embed, object, video, picture {
      margin-bottom:10px;
    }
   
-   #hero-image{
+#hero-image{
     padding: 75px;
    }
 
 
-   #image {
+#image {
     display: none;
    }
   
   
  
   
-  .full-width-grid-con {
+.full-width-grid-con {
      
      display: grid;
      grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
   }
   
-   .grid-con {
+.grid-con {
      display: grid;
      grid-template-columns: repeat(4, minmax(0, 1fr));
      grid-column-gap: 30px;
@@ -86,7 +86,7 @@ img, embed, object, video, picture {
   
   
   /* ---Tablet Library Grid Styles--- */
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   
      .grid-con {
         display: grid;
@@ -138,7 +138,7 @@ img, embed, object, video, picture {
      .m-col-end-12  {grid-column-end: 12;}
      .m-col-end-13  {grid-column-end: 13;}
 
-     #image {
+#image {
         display: none;
        }
   }
@@ -146,8 +146,7 @@ img, embed, object, video, picture {
   /* ---Desktop Library Grid Styles--- */
   
   @media screen and (min-width: 1200px) {
-  
-     .grid-con {
+.grid-con {
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 30px;
@@ -197,7 +196,7 @@ img, embed, object, video, picture {
      .l-col-end-12  {grid-column-end: 12;}
      .l-col-end-13  {grid-column-end: 13;}
 
-     #image {
+#image {
       display: block;
       background-color: rgb(255, 157, 100);
      color: rgb(27, 27, 27);
