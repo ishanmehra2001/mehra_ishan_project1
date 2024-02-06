@@ -3,9 +3,14 @@ img, embed, object, video, picture {
     max-width: 100%;
   }
   
+<<<<<<< HEAD
+ 
+html {
+=======
   
   
   html {
+>>>>>>> main
     box-sizing: border-box;
   }
   
@@ -13,44 +18,67 @@ img, embed, object, video, picture {
     box-sizing: inherit;
   }
   
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> main
   
-  body, p, h1, h2, h3, h4, h5 {
+body, p, h1, h2, h3, h4, h5 {
      margin: 0px;
      padding: 0px;
   }
   
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> main
   
-  .hidden {
+.hidden {
      display: none;
   }
   
+<<<<<<< HEAD
+.box {
+     background-color: rgb(100, 120, 255);
+=======
   .box {
      background-color: rgb(197, 99, 42);
+>>>>>>> main
      color: rgb(27, 27, 27);
      border-radius: 5px;
-     padding: 20px;
-     padding-bottom: 30px;
+     padding: 50px;
+     padding-bottom: 60px;
      text-align: center;
      margin-top: 10px;
      margin-bottom:10px;
    }
   
-   #image {
+#hero-image{
+    padding: 75px;
+   }
+
+
+#image {
     display: none;
    }
   
   
  
   
+<<<<<<< HEAD
+.full-width-grid-con {
+     
+=======
   .full-width-grid-con {
     
+>>>>>>> main
      display: grid;
      grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
   }
   
-   .grid-con {
+.grid-con {
      display: grid;
      grid-template-columns: repeat(4, minmax(0, 1fr));
      grid-column-gap: 30px;
@@ -81,9 +109,13 @@ img, embed, object, video, picture {
   
   
   
+<<<<<<< HEAD
+  /* ---Tablet Library Grid Styles--- */
+
 
 
   @media screen and (min-width: 768px) {
+>>>>>>> main
   
      .grid-con {
         display: grid;
@@ -140,18 +172,17 @@ img, embed, object, video, picture {
      .m-col-end-12  {grid-column-end: 12;}
      .m-col-end-13  {grid-column-end: 13;}
 
-     #image {
+#image {
         display: none;
        }
-  }
+  
 
 
   
  
   
   @media screen and (min-width: 1200px) {
-  
-     .grid-con {
+.grid-con {
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 30px;
@@ -208,13 +239,17 @@ img, embed, object, video, picture {
      .l-col-end-12  {grid-column-end: 12;}
      .l-col-end-13  {grid-column-end: 13;}
 
+<<<<<<< HEAD
+
+=======
 
      #image {
+>>>>>>> main
       display: block;
       background-color: rgb(197, 99, 42);
      color: rgb(27, 27, 27);
      border-radius: 5px;
-     padding: 20px;
+     padding: 50px;
      padding-bottom: 30px;
      text-align: center;
      margin-top: 10px;
